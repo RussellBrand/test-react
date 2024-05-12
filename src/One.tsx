@@ -1,22 +1,15 @@
-// Warning: `ReactDOMTestUtils.act` is deprecated in favor of
-// `React.act`.
-// Import `act` from `react` instead of
-// `react-dom/test-utils`. See
-// https://react.dev/warnings/react-dom-test-utils for more info.
-
-// const React = require("react");
-
-// const { useState } = require("react");
-
 import React, { useState } from "react";
 
 const STATUS = {
-  HOVERED: "hovered",
-  NORMAL: "normal",
-};
+  HOVERED: "hovered" as "hovered",
+  NORMAL: "normal" as "normal",
+} as const;
+
+type Status = (typeof STATUS)[keyof typeof STATUS];
+// type Status = "normal" | "hovered";
 
 function One({ page, children }) {
-  const [status, setStatus] = useState(STATUS.NORMAL);
+  const [status, setStatus] = useState<Status>(STATUS.NORMAL);
 
   const onMouseEnter = () => {
     setStatus(STATUS.HOVERED);
