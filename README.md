@@ -33,7 +33,7 @@ npm test does not find
 
 yarn just is able to
 
-
+testMatch: ["src/__tests__/*.test.js", "__tests__/*.test.js"],
 
 ### [ ] typescript
 
