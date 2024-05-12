@@ -1,3 +1,7 @@
+test:
+	npm test
+	echo "yes"
+
 list-tests:
 	jest --listTests
 

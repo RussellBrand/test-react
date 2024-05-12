@@ -12,7 +12,7 @@ it("changes the class when hovered", () => {
   const component = renderer.create(
     <One page="http://www.facebook.com">Facebook</One>
   );
-  let tree = component.toJSON();
+  let tree =  component.toJSON();
   expect(tree).toMatchSnapshot();
 
   // manually trigger the callback

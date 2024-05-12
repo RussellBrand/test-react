@@ -5,6 +5,7 @@ console.log("Current working directory: ", process.cwd());
 module.exports = {
   preset: "ts-jest",
   testEnvironment: "node",
+  watchAll: false,
 
   testMatch: [
     "**/src/__tests__/*.test.[jt]s",

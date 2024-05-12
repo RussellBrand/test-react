@@ -1,5 +1,6 @@
 #
-
+## doc
+https://github.com/jestjs/jest/blob/main/docs/TutorialReact.md
 ## issues
 
 ### [x] jsx
@@ -23,7 +24,7 @@
 {    "type": "module",}
 ```
 
-### [ ] yarn finds **test** at top level, npm does not
+### [2] yarn finds **test** at top level, npm does not
 
 
 
@@ -35,8 +36,8 @@ yarn just is able to
 
 testMatch: ["src/__tests__/*.test.js", "__tests__/*.test.js"],
 
-### [ ] typescript
+### [x] typescript
 
 `npm install --save-dev ts-jest typescript`
 
-### [ ] `~/xall/programming/test-react/node_modules/.bin/` is not in the path
+### [x] `~/xall/programming/test-react/node_modules/.bin/` is not in the path
