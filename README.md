@@ -37,4 +37,6 @@ yarn just is able to
 
 ### [ ] typescript
 
+`npm install --save-dev ts-jest typescript`
+
 ### [ ] `~/xall/programming/test-react/node_modules/.bin/` is not in the path
