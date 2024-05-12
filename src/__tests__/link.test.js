@@ -1,10 +1,12 @@
-// import renderer from 'react-test-renderer';
-// import Link from './one';
+import renderer from 'react-test-renderer';
+// const renderer = require("react-test-renderer");
 
-const renderer = require("react-test-renderer");
-const One = require("../One");
-// const One = require("./One").default;
-const React = require("react");
+import One from '../One';
+// const One = require("../One");
+
+
+import React from "react";
+// const React = require("react");
 
 it("changes the class when hovered", () => {
   const component = renderer.create(

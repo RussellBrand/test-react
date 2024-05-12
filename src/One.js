@@ -4,9 +4,11 @@
 // `react-dom/test-utils`. See
 // https://react.dev/warnings/react-dom-test-utils for more info.
 
+// const React = require("react");
+
 // const { useState } = require("react");
-const React = require("react");
-const { useState } = require("react");
+
+import React, { useState } from "react";
 
 const STATUS = {
   HOVERED: "hovered",
@@ -36,4 +38,5 @@ function One({ page, children }) {
   );
 }
 
-module.exports = One;
+// module.exports = One;
+export default One;

@@ -1,4 +1,11 @@
 {
+  "jest": {
+    "testMatch": [
+      "**/__tests__/**/*.[jt]s?(x)",
+      "**/?(*.)+(spec|test).[jt]s?(x)"
+    ]
+  },
+  "type": "module",
   "name": "test-react",
   "version": "0.1.0",
   "license": "MIT",
