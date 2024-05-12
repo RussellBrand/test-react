@@ -4,15 +4,16 @@
 // `react-dom/test-utils`. See
 // https://react.dev/warnings/react-dom-test-utils for more info.
 
-
-import {useState} from 'react';
+// const { useState } = require("react");
+const React = require("react");
+const { useState } = require("react");
 
 const STATUS = {
-  HOVERED: 'hovered',
-  NORMAL: 'normal',
+  HOVERED: "hovered",
+  NORMAL: "normal",
 };
 
-export default function Link({page, children}) {
+function One({ page, children }) {
   const [status, setStatus] = useState(STATUS.NORMAL);
 
   const onMouseEnter = () => {
@@ -26,7 +27,7 @@ export default function Link({page, children}) {
   return (
     <a
       className={status}
-      href={page || '#'}
+      href={page || "#"}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
@@ -34,3 +35,5 @@ export default function Link({page, children}) {
     </a>
   );
 }
+
+module.exports = One;
