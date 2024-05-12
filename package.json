@@ -11,7 +11,6 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "*",
-    "@testing-library/react": "*",
     "@testing-library/user-event": "*",
     "react": "*",
     "react-dom": "*",
@@ -44,8 +43,7 @@
     ]
   },
   "devDependencies": {
-    "react-test-renderer": "*",
-    "ts-jest": "^29.1.2",
-    "typescript": "^5.4.5"
+    "@testing-library/react": "^15.0.7",
+    "react-test-renderer": "*"
   }
 }
