@@ -10,8 +10,8 @@ list-tests:
 	direnv allow
 
 dirty:
-	cat  " " >> src/__tests__/app.test.jsx
-	cat  " " >> src/__tests__/button.test.js
+	echo  " " >> src/__tests__/app.test.jsx
+	echo  " " >> src/__tests__/button.test.js
 
 
 

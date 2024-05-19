@@ -25,7 +25,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
       "one_test": "CI=true react-scripts test",
-          "one-test": "CI=true react-scripts test",
+      "one-test": "CI=true react-scripts test",
+      "test-all": "react-scripts test --changedSince d824cf5",
+
+      "test-trans" : "react-scripts test -- src/trans.cjs ",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

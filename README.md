@@ -1,15 +1,22 @@
 # Testing React
 ## Introduction
-This examples works with `node test` using `jest`
+I want to use deno rather than nodejs for a REACT programming class.
+
+I am not yet seeing how to make TTD for REACT work with deno.
+
+These example works with `node test` using `jest`
 
 To run
 ```
 npm -i
-node test
+npm test
 ```
 
-By default test only tests
+By default test only test files that have changed since git checkout are run.
 
+npm test -- --changedSince d824cf5
+CI=true react-scripts test",
+make dirty; npm test
 
 ## internal notes
 ### deno
