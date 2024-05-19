@@ -1,4 +1,7 @@
 {
+
+
+
   "type": "module",
   "name": "test-react",
   "version": "0.1.0",
@@ -20,8 +23,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "wtest": "react-scripts test",
-    "test": "CI=true react-scripts test",
+    "test": "react-scripts test",
+      "one_test": "CI=true react-scripts test",
+          "one-test": "CI=true react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

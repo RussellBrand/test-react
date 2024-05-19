@@ -2,6 +2,9 @@
 
 console.log("Current working directory: ", process.cwd());
 
+
+
+
 module.exports = {
 
   testEnvironment: "node",
@@ -11,9 +14,13 @@ module.exports = {
     "**/src/__tests__/*.test.[jt]s",
     "**/__tests__/*.test.[jt]s-foo",
 
-    "**/src/__tests__/*.test.[jt]sx",
-    "**/__tests__/*.test.[jt]s(x)?",
+    "**/src/__tests__/*.test.[jt]s",
+        "**/src/__tests__/*.test.[jt]sx",
+    "**/__tests__/*.test.[jt]s",
+        "**/__tests__/*.test.[jt]sx",
   ],
 
   testPathIgnorePatterns: ["/node_modules/"],
+
+
 };

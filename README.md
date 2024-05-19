@@ -1,7 +1,52 @@
-#
-## doc
+# Testing React
+## Introduction
+This examples works with `node test` using `jest`
+
+To run
+```
+npm -i
+node test
+```
+
+By default test only tests
+
+
+## internal notes
+### deno
+~/src/github.com/testing-library/user-event/tests/pointer/click.ts
+
+https://github.com/testing-library
+
+https://deno.land/x/fresh_testing_library@0.13.0
+https://deno.land/x/fresh_testing_library@0.13.0/components.ts?s=fireEvent
+
+https://deno.land/x/create_react_app@v0.1.2
+https://deno.land/x/react_native_switch_toggle@v2.2.1
+https://deno.land/x/react_dev_server@0.0.3
+https://deno.land/x/deno_react_minimal_fullstack@v1.2.0
+https://deno.land/x/deno_react_minimal_frontend@v1.4.0
+https://deno.land/x/basic_jsx@v3.1.2
+https://deno.land/x/blocks@1.66.3
+https://deno.land/x/reflex@v0.16.1
+https://deno.land/x/auto_refactor@v1.0.0
+
+
+
+### doc
 https://github.com/jestjs/jest/blob/main/docs/TutorialReact.md
-## issues
+https://create-react-app.dev/docs/running-tests/#docsNav
+https://jestjs.io/docs/troubleshooting
+https://jestjs.io/docs/getting-started
+https://jestjs.io/docs/setup-teardown
+https://babeljs.io/docs/configuration
+
+
+https://react.dev/warnings/react-dom-test-utils
+
+
+
+
+### issues
 
 ### [x] jsx
 
@@ -41,3 +86,4 @@ testMatch: ["src/__tests__/*.test.js", "__tests__/*.test.js"],
 `npm install --save-dev ts-jest typescript`
 
 ### [x] `~/xall/programming/test-react/node_modules/.bin/` is not in the path
+
