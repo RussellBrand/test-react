@@ -6,17 +6,36 @@ I am not yet seeing how to make TTD for REACT work with deno.
 
 These example works with `node test` using `jest`
 
+Three are `jsx`; one has been transpile to `js.`
+
 To run
 ```
 npm -i
 npm test
 ```
 
-By default test only test files that have changed since git checkout are run.
+To all the tests
 
+By default test only test files that have changed since git checkout are run. 
+
+### Any of these will run all the tests.
+
+```
 npm test -- --changedSince d824cf5
+
+npm run one-test -- --changedSince d824cf5
+
 CI=true react-scripts test",
+
 make dirty; npm test
+```
+
+### to test the one that was transpile use
+
+```
+npm run test-trans
+```
+
 
 ## internal notes
 ### deno
